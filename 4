@@ -2,13 +2,11 @@
 <body>
 <script>
 function fibonacci(number) {
-// n < 2
 if (number <= 0) {
 return 0;
 } else if (number === 1) {
 return 1;
 } else {
-// f(n) = f(n-1) + f(n-2)
 return fibonacci(number - 1) + fibonacci(number - 2);
 }
 };
